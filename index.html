@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kevin Clide Bautista - Information Technology Student, Web & AI Developer, and UI/UX Designer Portfolio" />
+  <meta name="author" content="Kevin Clide Bautista" />
+  <meta name="theme-color" content="#0b0f19" />
+  <title>Kevin Clide Bautista | IT Student & Web/AI Developer Portfolio</title>
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========================================================================
+       Navigation Bar
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Logo / Monogram -->
+      <a href="#home" class="nav-logo" aria-label="Kevin Clide Bautista Homepage">
+        <div class="logo-icon">KB</div>
+        <div class="logo-text">Kevin <span>Clide</span></div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Action Buttons (Theme Toggle, Resume CTA, Hamburger) -->
+      <div class="nav-actions">
+        <!-- Theme Switcher -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark and Light Mode" title="Toggle Theme">
+          <!-- Moon Icon (Dark Mode Active) -->
+          <svg class="theme-icon-dark" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (Light Mode Active) -->
+          <svg class="theme-icon-light" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <!-- Header Resume Download Link -->
+        <a href="assets/resume.pdf" download="Kevin_Clide_Bautista_Resume.pdf" class="btn-nav-resume" target="_blank" rel="noopener noreferrer">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Hamburger Button -->
+        <button id="hamburger-btn" class="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================================
+         Hero Section (#home)
+         ======================================================================== -->
+    <section class="section hero" id="home">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+
+      <div class="container hero-grid">
+        <!-- Hero Text Details -->
+        <div class="hero-text-content">
+          <!-- Status Pill -->
+          <div class="hero-status-pill">
+            <span class="status-dot"></span>
+            <span>Available for IT Projects &amp; Collaborations</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <br />
+            <span class="name-highlight">Kevin Clide Bautista</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Information Technology Student &bull; Web &amp; AI Developer &bull; UI/UX Designer
+          </p>
+
+          <p class="hero-description">
+            BSIT student at Cebu Eastern College with practical experience building database-driven 
+            web applications, AI-integrated software, and intuitive user interfaces. Passionate about 
+            crafting purposeful digital solutions through clean code, modern frameworks, and emerging AI tools.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <a href="assets/resume.pdf" download="Kevin_Clide_Bautista_Resume.pdf" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+
+            <a href="#contact" class="btn btn-accent">
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <!-- Social / Professional Links -->
+          <div class="hero-social-list">
+            <!-- GitHub -->
+            <a href="https://github.com/Kevinclide23" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub - @Kevinclide23" aria-label="Kevin's GitHub Profile">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/kevin-clide-bautista-309266181/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile" aria-label="Kevin's LinkedIn Profile">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:kbautista063@gmail.com" class="social-link" title="Email: kbautista063@gmail.com" aria-label="Send Email">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+
+            <!-- Phone -->
+            <a href="tel:+639924318641" class="social-link" title="Phone: (+63) 992 431 8641" aria-label="Call Kevin">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Visual Card -->
+        <div class="hero-visual-card">
+          <!-- Floating Badge 1 -->
+          <div class="floating-badge floating-badge-1">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+            <span>Antigravity &amp; AI</span>
+          </div>
+
+          <!-- Floating Badge 2 -->
+          <div class="floating-badge floating-badge-2">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#06b6d4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            <span>JavaScript &bull; Node.js</span>
+          </div>
+
+          <!-- Floating Badge 3 -->
+          <div class="floating-badge floating-badge-3">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="3" y1="9" x2="21" y2="9"></line>
+              <line x1="9" y1="21" x2="9" y2="9"></line>
+            </svg>
+            <span>UI/UX &bull; Figma</span>
+          </div>
+
+          <div class="hero-avatar-wrapper">
+            <img src="images/profile.jpg" alt="Kevin Clide Bautista - Portfolio Avatar" class="hero-avatar-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         About Me Section (#about)
+         ======================================================================== -->
+    <section class="section section-alt" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Background &amp; Aspirations</h2>
+          <p class="section-description">
+            A motivated Information Technology student dedicated to developing real-world, user-first web applications and intelligent AI solutions.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Biography -->
+          <div class="about-text">
+            <h3>Crafting practical software with clean design and AI integration</h3>
+            <p>
+              I am currently pursuing a <strong>Bachelor of Science in Information Technology (BSIT)</strong> at 
+              <strong>Cebu Eastern College</strong> (2023 - 2026). Prior to college, I graduated from the 
+              <strong>STEM Strand</strong> at Don Vicente Rama Memorial National High School, building a solid foundation in 
+              mathematics, analytical problem solving, and technological innovation.
+            </p>
+            <p>
+              My focus centers on <strong>database-driven web applications</strong>, <strong>modern front-end engineering</strong>, 
+              and <strong>applied AI development</strong>. Through academic capstones, class activities, and independent projects, 
+              I have practical experience combining technologies like <em>JavaScript, Node.js, Python, Django, SQLite, Tailwindcss, and Antigravity</em> 
+              with AI models like <em>OpenAI GPT-4o</em>.
+            </p>
+            <p>
+              Beyond coding, I strongly value design aesthetics and intuitive user experiences. Using tools like <strong>Figma, Canva, and Photopea</strong>, 
+              I ensure that every system I build is not only functional and secure under the hood, but also visually appealing and accessible for everyone.
+            </p>
+
+            <!-- Quick info items -->
+            <div class="about-info-list">
+              <div class="about-info-item">
+                <svg class="about-info-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span>Quiot, Cebu City, Philippines</span>
+              </div>
+              <div class="about-info-item">
+                <svg class="about-info-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+                <span>Cebu Eastern College (BSIT)</span>
+              </div>
+              <div class="about-info-item">
+                <svg class="about-info-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <span>Graduating Class of 2026</span>
+              </div>
+              <div class="about-info-item">
+                <svg class="about-info-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                <span>Open to Projects &amp; Collaborations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight / Stat Cards -->
+          <div class="about-stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">4+</div>
+              <div class="stat-label">Featured Projects (Capstone &amp; Academic)</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Years Continuous IT &amp; STEM Education</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">12+</div>
+              <div class="stat-label">Languages, Frameworks &amp; Media Tools</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Dedication to Practical Tech Solutions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Skills & Expertise Section (#skills)
+         ======================================================================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-description">
+            An honest overview of my current capabilities across software development, AI tooling, database systems, and visual design.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Web & Programming -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">&lt;/&gt;</div>
+              <h3>Web &amp; Programming</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">HTML5 &amp; Semantic Web</span>
+              <span class="skill-tag highlight">CSS3 &amp; Responsive Layouts</span>
+              <span class="skill-tag highlight">JavaScript (ES6+)</span>
+              <span class="skill-tag highlight">Node.js</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java Programming</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Frameworks & Databases -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <h3>Frameworks &amp; Data</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">Tailwindcss</span>
+              <span class="skill-tag">Django Framework</span>
+              <span class="skill-tag highlight">SQLite</span>
+              <span class="skill-tag">Database Management</span>
+              <span class="skill-tag">CRUD Architecture</span>
+              <span class="skill-tag">RESTful API Design</span>
+            </div>
+          </div>
+
+          <!-- Category 3: AI & Developer Tooling -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">✨</div>
+              <h3>AI &amp; Developer Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">Antigravity Development</span>
+              <span class="skill-tag highlight">OpenAI GPT-4o API</span>
+              <span class="skill-tag">Prompt Engineering</span>
+              <span class="skill-tag">Git &amp; GitHub Versioning</span>
+              <span class="skill-tag">VS Code Environment</span>
+              <span class="skill-tag">GitHub Pages &amp; Vercel</span>
+            </div>
+          </div>
+
+          <!-- Category 4: UI/UX & Creative Media -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">🎨</div>
+              <h3>Design &amp; Creative Media</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">Figma (UI/UX &amp; Wireframes)</span>
+              <span class="skill-tag">Canva</span>
+              <span class="skill-tag">Photopea</span>
+              <span class="skill-tag">CapCut Video Editing</span>
+              <span class="skill-tag">Graphic Design</span>
+              <span class="skill-tag">Prototyping</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Professional & Academic -->
+          <div class="skill-category-card">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">🤝</div>
+              <h3>Professional Strengths</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight">Team Collaboration</span>
+              <span class="skill-tag">Networking Fundamentals</span>
+              <span class="skill-tag">Problem Solving</span>
+              <span class="skill-tag">Technical Documentation</span>
+              <span class="skill-tag">Agile Task Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Projects Section (#projects)
+         ======================================================================== -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portfolio Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-description">
+            Class activities, personal projects, and capstone work demonstrating full-stack problem solving, AI integration, and user-centric design.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects (4)</button>
+          <button class="filter-btn" data-filter="capstone">Capstone &amp; Academic</button>
+          <button class="filter-btn" data-filter="ai">AI &amp; Node.js</button>
+          <button class="filter-btn" data-filter="python">Python &amp; Django</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project 1: SafeDrive: Records (Activity Project) -->
+          <article class="project-card" data-category="capstone">
+            <div class="project-image-wrapper">
+              <img src="images/project-safedrive.svg" alt="SafeDrive Records Management Activity Project" loading="lazy" />
+              <span class="project-badge-top activity">Activity Project</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">SafeDrive: Records</h3>
+              <p class="project-summary">
+                A streamlined vehicle safety and traffic violation logging system designed to replace cumbersome paper logs with an instant search, driver verification, and compliance status dashboard.
+              </p>
+              <div class="project-contribution">
+                <strong>My Contribution:</strong>
+                Designed complete user flows in Figma, programmed dynamic table filtering and status logic in vanilla JavaScript, and styled with Tailwindcss.
+              </div>
+              <div class="project-tags">
+                <span class="p-tag">JavaScript</span>
+                <span class="p-tag">Figma</span>
+                <span class="p-tag">Tailwindcss</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn-project-modal" data-project="safedrive">
+                  <span>View Details</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <div class="project-links">
+                  <a href="https://github.com/Kevinclide23" target="_blank" rel="noopener noreferrer" class="icon-btn-link" title="Source Code">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: SmartCane (Capstone Project) -->
+          <article class="project-card" data-category="capstone">
+            <div class="project-image-wrapper">
+              <img src="images/project-smartcane.png" alt="SmartCane Assistive Navigation Capstone Project" loading="lazy" />
+              <span class="project-badge-top capstone">Capstone Project</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">SmartCane: Assistive Navigation Device</h3>
+              <p class="project-summary">
+                An innovative assistive system designed for visually impaired individuals, combining ultrasonic obstacle detection sensors with an accessible, high-contrast web dashboard and Antigravity automated alerts.
+              </p>
+              <div class="project-contribution">
+                <strong>My Contribution:</strong>
+                UI/UX wireframing and prototyping in Figma, responsive frontend interface implementation with Tailwindcss, and Antigravity workflow rule integration.
+              </div>
+              <div class="project-tags">
+                <span class="p-tag">Figma</span>
+                <span class="p-tag">JavaScript</span>
+                <span class="p-tag">Antigravity</span>
+                <span class="p-tag">Tailwindcss</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn-project-modal" data-project="smartcane">
+                  <span>View Details</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <div class="project-links">
+                  <a href="https://github.com/Kevinclide23" target="_blank" rel="noopener noreferrer" class="icon-btn-link" title="Source Code">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: CuePoint (Activity Project) -->
+          <article class="project-card" data-category="ai capstone">
+            <div class="project-image-wrapper">
+              <img src="images/project-cuepoint.png" alt="CuePoint AI Presentation Prompter Activity Project" loading="lazy" />
+              <span class="project-badge-top activity">Activity Project</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">CuePoint: AI Presentation Prompter</h3>
+              <p class="project-summary">
+                An intelligent presentation companion that monitors speaking cadence in real time and utilizes OpenAI GPT-4o to provide dynamic speaker cues, pacing warnings, and slide transition reminders.
+              </p>
+              <div class="project-contribution">
+                <strong>My Contribution:</strong>
+                Implemented Node.js server endpoints connected to OpenAI GPT-4o API, structured low-latency cue prompts, and engineered the interactive prompter display.
+              </div>
+              <div class="project-tags">
+                <span class="p-tag">Node.js</span>
+                <span class="p-tag">OpenAI GPT-4o</span>
+                <span class="p-tag">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn-project-modal" data-project="cuepoint">
+                  <span>View Details</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <div class="project-links">
+                  <a href="https://github.com/Kevinclide23" target="_blank" rel="noopener noreferrer" class="icon-btn-link" title="Source Code">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: FashionPulse (Activity Project) -->
+          <article class="project-card" data-category="python capstone">
+            <div class="project-image-wrapper">
+              <img src="images/project-fashionpulse2.jpg" alt="FashionPulse Contemporary Apparel &amp; Trend Catalog" loading="lazy" />
+              <span class="project-badge-top activity">Activity Project</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">FashionPulse: Lookbook &amp; Apparel</h3>
+              <p class="project-summary">
+                A dynamic fashion lookbook and apparel catalog platform engineered to explore clothing trends, manage collection inventories, and provide real-time dynamic outfit filtering.
+              </p>
+              <div class="project-contribution">
+                <strong>My Contribution:</strong>
+                Developed Django backend models and views for catalog management, built interactive search and style categorization logic in JavaScript, and designed a responsive catalog showcase interface.
+              </div>
+              <div class="project-tags">
+                <span class="p-tag">Python</span>
+                <span class="p-tag">Django</span>
+                <span class="p-tag">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <button class="btn-project-modal" data-project="fashionpulse">
+                  <span>View Details</span>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <div class="project-links">
+                  <a href="https://github.com/Kevinclide23" target="_blank" rel="noopener noreferrer" class="icon-btn-link" title="Source Code">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Education & Academic Timeline (#education)
+         ======================================================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Journey</span>
+          <h2 class="section-title">Education &amp; Training</h2>
+          <p class="section-description">
+            My formal academic milestones shaping my technical perspective and software development capabilities.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <!-- Timeline Item 1: College -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-badge">2023 &ndash; 2026 (Present)</span>
+              <h3 class="timeline-title">Bachelor of Science in Information Technology (BSIT)</h3>
+              <p class="timeline-institution">Cebu Eastern College &bull; Cebu City, Philippines</p>
+              <p class="timeline-details">
+                Currently engaged in advanced IT coursework focusing on full-stack application development, 
+                relational database management systems (RDBMS), enterprise networking architectures, and 
+                collaborative software engineering practices.
+              </p>
+              <div class="coursework-tags">
+                <span class="coursework-pill">Web Development</span>
+                <span class="coursework-pill">Database Management</span>
+                <span class="coursework-pill">Networking &amp; Infrastructure</span>
+                <span class="coursework-pill">Systems Analysis &amp; Design</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2: High School -->
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-badge">2017 &ndash; 2023</span>
+              <h3 class="timeline-title">Junior and Senior High School</h3>
+              <p class="timeline-institution">Don Vicente Rama Memorial National High School</p>
+              <p class="timeline-details">
+                Completed secondary education under the <strong>STEM Strand (Science, Technology, Engineering, and Mathematics)</strong>. 
+                Developed foundational skills in algorithmic logic, statistical analysis, computer research, and collaborative project defense.
+              </p>
+              <div class="coursework-tags">
+                <span class="coursework-pill">STEM Academic Strand</span>
+                <span class="coursework-pill">Foundational Programming</span>
+                <span class="coursework-pill">Scientific Research</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         Contact Section (#contact)
+         ======================================================================== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-description">
+            Whether you have an inquiry, feedback on my projects, or an opportunity for collaboration, I’d love to hear from you.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels Info Panel -->
+          <div class="contact-info-panel">
+            <h3>Direct Contact Channels</h3>
+            <p class="contact-intro">
+              Feel free to reach out directly via email, phone, or connect with me on GitHub and LinkedIn. I typically reply within 24 hours.
+            </p>
+
+            <div class="contact-channels">
+              <!-- Email Card with Copy Button -->
+              <div class="channel-card">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Email Address</span>
+                  <a href="mailto:kbautista063@gmail.com" class="channel-value">kbautista063@gmail.com</a>
+                </div>
+                <button id="copy-email-btn" class="btn-copy-email" title="Copy Email to Clipboard" aria-label="Copy Email">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Phone Card -->
+              <div class="channel-card">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Mobile Phone</span>
+                  <a href="tel:+639924318641" class="channel-value">(+63) 992 431 8641</a>
+                </div>
+              </div>
+
+              <!-- Location Card -->
+              <div class="channel-card">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span class="channel-label">Location</span>
+                  <span class="channel-value">E. Sabellano St. Quiot, Cebu City</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-social-list">
+              <a href="https://github.com/Kevinclide23" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile">
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/kevin-clide-bautista" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile">
+                <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form with Mailto Integration -->
+          <div class="contact-form-card">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name *</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="e.g. John Doe" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email *</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="e.g. john@example.com" required />
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control" placeholder="e.g. Collaboration on IT Project" />
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message *</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message via Email</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+
+              <div id="form-feedback" class="form-feedback"></div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Download Resume Banner -->
+        <div class="resume-download-banner">
+          <div class="resume-banner-text">
+            <h4>Need a copy of my curriculum vitae?</h4>
+            <p>Download my official one-page resume containing my complete educational history, skills, and projects.</p>
+          </div>
+          <a href="assets/resume.pdf" download="Kevin_Clide_Bautista_Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download Official Resume (PDF)</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <div class="logo-icon">KB</div>
+            <div class="logo-text">Kevin <span>Clide</span> Bautista</div>
+          </a>
+          <p>
+            BSIT Student at Cebu Eastern College. Passionate about web development, AI integration, and user-centric design.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#education" class="footer-link">Education</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Kevin Clide Bautista. Built for Student Portfolio Activity &amp; Showcase.</p>
+        <button id="back-to-top" class="back-to-top-btn" title="Back to Top" aria-label="Scroll back to top">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Project Details Modal Dialog
+       ======================================================================== -->
+  <div class="modal-overlay" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close project modal">&times;</button>
+      <img id="modal-image" class="modal-image" src="" alt="Project Visual Preview" />
+      <span id="modal-badge" class="modal-badge">Category</span>
+      <h3 id="modal-title" class="modal-title">Project Title</h3>
+      
+      <p id="modal-desc" class="modal-description">Project overview details...</p>
+
+      <h4 class="modal-section-heading">My Personal Contribution &amp; Role</h4>
+      <div id="modal-contrib" class="modal-contribution-box">Contribution details...</div>
+
+      <h4 class="modal-section-heading">Technologies &amp; Libraries</h4>
+      <div id="modal-tags" class="modal-tags"></div>
+
+      <div class="modal-actions">
+        <a id="modal-github" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+          <span>View on GitHub</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>

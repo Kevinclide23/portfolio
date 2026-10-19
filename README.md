@@ -5,15 +5,14 @@ A modern, responsive personal portfolio website built with pure HTML5, CSS3, and
 
 ---
 
-## 🌐 Live Website & Repository
+## Live Website & Repository
 
 - **Live Published URL (GitHub Pages):** [https://kevinclide23.github.io/portfolio/](https://kevinclide23.github.io/portfolio/)
-- **Live Published URL (Vercel):** `https://kevin-clide-portfolio.vercel.app`
 - **GitHub Repository:** [https://github.com/Kevinclide23/portfolio](https://github.com/Kevinclide23/portfolio)
 
 ---
 
-## 👤 About the Author
+## About the Author
 
 - **Name:** Kevin Clide Bautista
 - **Program:** Bachelor of Science in Information Technology (BSIT, 2023–2026)
@@ -27,7 +26,7 @@ A modern, responsive personal portfolio website built with pure HTML5, CSS3, and
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 1. **Fully Responsive Layout:** Optimized for narrow smartphone screens, tablets, laptops, and ultra-wide desktop monitors.
 2. **Dark / Light Theme Toggle:** Clean toggle button with automatic theme persistence via `localStorage`.
@@ -43,7 +42,7 @@ A modern, responsive personal portfolio website built with pure HTML5, CSS3, and
 
 ---
 
-## 📁 Project File Structure
+## Project File Structure
 
 ```text
 portfolio/

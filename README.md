@@ -61,74 +61,6 @@ portfolio/
     └── resume.pdf        # Official one-page resume
 ```
 
----
-
-## 🛠️ How to Test Locally
-
-1. Open File Explorer and navigate to `D:\portfolio`.
-2. Double-click `index.html` to open it in your default web browser (Chrome, Edge, Firefox, Brave).
-3. Alternatively, in **VS Code**:
-   - Open the `portfolio` folder (`File > Open Folder...`).
-   - If you have the Microsoft **Live Preview** extension installed, right-click `index.html` and select **Show Preview**.
-
----
-
-## 🚢 Publishing Instructions
-
-### Option 1: Publish with GitHub Pages (Recommended)
-
-1. Sign in to your account at [github.com](https://github.com).
-2. Click the **+** icon in the top right corner and choose **New repository**.
-3. Name your repository `portfolio`.
-4. Select **Public** and check **Add a README file** (or leave it unchecked if uploading the existing one). Click **Create repository**.
-5. In your new repository, click **Add file > Upload files**.
-6. Drag and drop all the files and folders from your `portfolio` directory:
-   - `index.html`
-   - `style.css`
-   - `script.js`
-   - `README.md`
-   - `images/` (folder)
-   - `assets/` (folder)
-7. Type a commit message like `"Publish Kevin Clide portfolio website"` and click **Commit changes**.
-8. Go to **Settings > Pages** in your repository.
-9. Under **Build and deployment**:
-   - **Source:** `Deploy from a branch`
-   - **Branch:** `main` (or `master`)
-   - **Folder:** `/(root)`
-10. Click **Save**. Wait 1–3 minutes, then refresh the page to get your live URL:
-    `https://Kevinclide23.github.io/portfolio/`
-
-### Option 2: Publish with Vercel
-
-1. Log in to [vercel.com](https://vercel.com) using your GitHub account.
-2. Click **Add New > Project**.
-3. Select your `portfolio` GitHub repository and click **Import**.
-4. In the build settings:
-   - **Framework Preset:** `Other`
-   - **Root Directory:** `./`
-   - **Build Command:** *(Leave blank)*
-   - **Output Directory:** `.`
-5. Click **Deploy**. Vercel will give you a live production URL like `your-portfolio.vercel.app`.
-
-### Option 3: Deploy with Firebase Hosting
-
-1. In the terminal:
-   ```bash
-   npm install -g firebase-tools
-   firebase login
-   firebase init hosting
-   ```
-2. Configure settings:
-   - Use existing Firebase project or create new.
-   - Public directory: `.` (or create `public` and copy files).
-   - Single Page App: `No`.
-   - Overwrite index.html: `No`.
-3. Deploy:
-   ```bash
-   firebase deploy --only hosting
-   ```
-
----
 
 ## 📝 Student Submission Format
 
@@ -136,7 +68,7 @@ portfolio/
 - **Degree Program:** Bachelor of Science in Information Technology (BSIT)
 - **Institution:** Cebu Eastern College
 - **Live Website URL:** `https://kevinclide23.github.io/portfolio/`
-- **Hosting Service:** GitHub Pages / Vercel
+- **Hosting Service:** GitHub Pages 
 - **Source Code Repository:** `https://github.com/Kevinclide23/portfolio`
 - **AI Tools & IDEs Used:** Antigravity IDE, Google Gemini
 

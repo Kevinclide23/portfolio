@@ -1,4 +1,3 @@
-# portfolio
 # Kevin Clide Bautista - Personal Portfolio Website
 
 A modern, responsive personal portfolio website built with pure HTML5, CSS3, and vanilla JavaScript for student activity submission and professional showcase. Designed to work seamlessly on mobile phones, tablets, and desktop computers with zero build dependencies.
